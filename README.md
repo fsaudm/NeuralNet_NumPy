@@ -45,7 +45,7 @@ With an optimized learning rate of `5.5e-2`, the model achieved a **94% validati
 
 The hyperparameter optimization was logged using Weights & Biases. Click the image below to view the detailed report.
 
-[![W&B_Report](W&B_Report.png)](https://wandb.ai/gfs3-university-of-illinois-urbana-champaign/mnist-neural-network/reports/MNIST-prediction-with-a-NumPy-Neural-Network---Vmlldzo4OTc1MDA4)
+[![W&B_Report](W&B_Report.png)](https://api.wandb.ai/links/gfs3-university-of-illinois-urbana-champaign/cepa8oi5)
 
 
 
