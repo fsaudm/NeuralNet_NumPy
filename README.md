@@ -45,10 +45,11 @@ With an optimized learning rate of `5.5e-2`, the model achieved a **94% validati
 ### Example Predictions:
 ![Sample Predictions](digits&predictions.png)
 
-### Hyperparameter Optimization:
-The hyperparameter optimization was logged using Weights & Biases:
+### Hyperparameter Optimization
 
-<iframe src="https://wandb.ai/gfs3-university-of-illinois-urbana-champaign/mnist-neural-network/reports/MNIST-prediction-with-a-NumPy-Neural-Network---Vmlldzo4OTc1MDA4" width="100%" height="1024px"></iframe>
+The hyperparameter optimization was logged using Weights & Biases. Click the image below to view the detailed report.
+
+[![W&B_Report](path_to_screenshot.png)](https://wandb.ai/gfs3-university-of-illinois-urbana-champaign/mnist-neural-network/reports/MNIST-prediction-with-a-NumPy-Neural-Network---Vmlldzo4OTc1MDA4)
 
 
 
@@ -59,7 +60,7 @@ To run this project, you'll need to install the following Python packages:
 
 ### Core Dependencies
 - **NumPy**: Used for matrix operations and core numerical computations.
-- **Pandas**: Used for loading and preprocessing the MNIST dataset.
+- **Pandas**: Used exclusively for loading and preprocessing the MNIST dataset.
 
 ### Visualization
 - **Matplotlib**: Used for plotting images and graphs.
