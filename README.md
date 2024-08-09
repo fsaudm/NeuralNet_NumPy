@@ -49,7 +49,7 @@ With an optimized learning rate of `5.5e-2`, the model achieved a **94% validati
 
 The hyperparameter optimization was logged using Weights & Biases. Click the image below to view the detailed report.
 
-[![W&B_Report](path_to_screenshot.png)](https://wandb.ai/gfs3-university-of-illinois-urbana-champaign/mnist-neural-network/reports/MNIST-prediction-with-a-NumPy-Neural-Network---Vmlldzo4OTc1MDA4)
+[![W&B_Report](W&B_Report.png)](https://wandb.ai/gfs3-university-of-illinois-urbana-champaign/mnist-neural-network/reports/MNIST-prediction-with-a-NumPy-Neural-Network---Vmlldzo4OTc1MDA4)
 
 
 
@@ -62,16 +62,17 @@ To run this project, you'll need to install the following Python packages:
 - **NumPy**: Used for matrix operations and core numerical computations.
 - **Pandas**: Used exclusively for loading and preprocessing the MNIST dataset.
 
+
 ### Visualization
 - **Matplotlib**: Used for plotting images and graphs.
 - **Seaborn**: Used for creating a confusion matrix plot.
 
 ### Model Evaluation
-- **Scikit-learn**: Used for calculating accuracy and generating the confusion matrix.
+- **Scikit-learn**: Used for calculating accuracy and generating the confusion matrix (and loading the full MNIST dataset, if desired)
 
 ### Experiment Tracking
 - **Weights & Biases**: Used for logging metrics and visualizing the training process.
-- **TQDM**: Used for displaying progress bars during training.
+- **tqdm**: Used for displaying progress bars during training.
 
 
 
