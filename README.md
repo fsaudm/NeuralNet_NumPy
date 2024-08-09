@@ -1,17 +1,13 @@
 # A Neural Network using NumPy for MNIST
 
-**Note**
 
-For 2-D arrays, np.dot performs matrix multiplication. To be more readable and explicit:
-- **np.matmul()** is used for matrix multiplication
-- "*" is used for element-wise multiplication
 
 
 
 
 ## Overview
 
-This project is an implementation of a basic neural network using only **NumPy**, without relying on deep learning frameworks like PyTorch or TensorFlow. The network is trained on the MNIST dataset (accessible via Google Colab), and it classifies handwritten digits into one of ten categories (0-9).
+This project is an implementation of a fully-connected neural network using **NumPy** only, without relying on deep learning frameworks like PyTorch or TensorFlow. The network is trained on the MNIST dataset (accessible via Google Colab), and it classifies handwritten digits into one of ten categories (0-9).
 
 
 
@@ -62,6 +58,12 @@ To run this project, you'll need to install the following Python packages:
 - **NumPy**: Used for matrix operations and core numerical computations.
 - **Pandas**: Used exclusively for loading and preprocessing the MNIST dataset.
 
+**Note**
+For 2-D arrays, np.dot performs matrix multiplication. To be more readable and explicit:
+- **np.matmul()** is used for matrix multiplication
+- "*" is used for element-wise multiplication
+
+---
 
 ### Visualization
 - **Matplotlib**: Used for plotting images and graphs.
