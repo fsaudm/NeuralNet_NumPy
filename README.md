@@ -14,7 +14,7 @@ This project is an implementation of a fully-connected neural network using **Nu
 
 ## Key Features
 
-- **Fully Connected Neural Network**: The network consists of 4 layers: an input layer, 2 hidden layers, and an output layer.
+- **Fully Connected Neural Network**: The network consists of 4 layers: an input layer, 2 hidden layers, and an output layer. This network has 164,013 parameters.
 - **Custom Activation and Helper Functions**: Efficiently implemented functions such as ReLU, Softmax, One-hot Encoding, Cross-entropy loss, and ReLU derivative (ReLU prime).
 - **Custom Training Loop**: The training loop is implemented from scratch, offering detailed insights into *vectorized* forward and backward propagation, and gradient descent optimization.
 - **Visualization**: Includes functionality to visualize predictions and a confusion matrix for evaluating model performance.
@@ -52,8 +52,6 @@ The hyperparameter optimization was logged using Weights & Biases. Click the ima
 
 ## Requirements
 
-To run this project, you'll need to install the following Python packages:
-
 ### Core Dependencies
 - **NumPy**: Used for matrix operations and core numerical computations.
 - **Pandas**: Used exclusively for loading and preprocessing the MNIST dataset.
@@ -62,19 +60,5 @@ To run this project, you'll need to install the following Python packages:
 For 2-D arrays, np.dot performs matrix multiplication. To be more readable and explicit:
 - **np.matmul()** is used for matrix multiplication
 - "*" is used for element-wise multiplication
-
----
-
-### Visualization
-- **Matplotlib**: Used for plotting images and graphs.
-- **Seaborn**: Used for creating a confusion matrix plot.
-
-### Model Evaluation
-- **Scikit-learn**: Used for calculating accuracy and generating the confusion matrix (and loading the full MNIST dataset, if desired)
-
-### Experiment Tracking
-- **Weights & Biases**: Used for logging metrics and visualizing the training process.
-- **tqdm**: Used for displaying progress bars during training.
-
 
 
