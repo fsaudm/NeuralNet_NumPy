@@ -1,4 +1,5 @@
 # A Neural Network using NumPy for MNIST
+& Fashion MNIST 
 
 
 
@@ -7,7 +8,7 @@
 
 ## Overview
 
-This project is an implementation of a fully-connected neural network using **NumPy** only, without relying on deep learning frameworks like PyTorch or TensorFlow. The network is trained on the MNIST dataset (accessible via Google Colab), and it classifies handwritten digits into one of ten categories (0-9).
+This project is an implementation of a fully-connected neural network using **NumPy** only, without relying on deep learning frameworks like PyTorch or TensorFlow. The network is trained on the MNIST dataset (accessible via Google Colab), and it classifies handwritten digits into one of ten categories (0-9). A similar implementation for Fashion MNIST is also included in a seperate notebook.
 
 
 
